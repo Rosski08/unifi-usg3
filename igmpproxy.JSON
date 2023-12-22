@@ -1,0 +1,19 @@
+{ 
+    "protocols": {
+            "igmp-proxy": {
+                    "disable-quicksave": "''",
+                    "interface": {
+                            "eth0": {
+                                    "alt-subnet": "0.0.0.0/0",
+                                    "role": "upstream",
+                                    "threshold": "1"
+                            },
+                            "eth2": {
+                                    "alt-subnet": "0.0.0.0/0",
+                                    "role": "downstream",
+                                    "threshold": "1"
+                            }
+                    }
+            }
+    }
+}
